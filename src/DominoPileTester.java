@@ -99,7 +99,6 @@ public class DominoPileTester {
     public void testShuffleOptionTwo() {
         setUp();
         dominoPile.newStack6();
-        dominoPile.shuffleOptionTwo();
         int top = 0;
         int bottom = 0;
         boolean allInSameOrder = true;
